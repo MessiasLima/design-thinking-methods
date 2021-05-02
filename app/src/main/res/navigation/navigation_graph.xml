@@ -9,5 +9,18 @@
         android:id="@+id/homeFragment"
         android:name="com.messias.designthinkingmethods.home.HomeFragment"
         android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/briefingTitle"
+            app:destination="@id/briefingTitleFragment"
+            app:enterAnim="@anim/transition_enter"
+            app:exitAnim="@anim/transition_exit"
+            app:popEnterAnim="@anim/transition_pop_enter"
+            app:popExitAnim="@anim/transition_pop_exit" />
+    </fragment>
+    <fragment
+        android:id="@+id/briefingTitleFragment"
+        android:name="com.messias.designthinkingmethods.briefing.BriefingTitleFragment"
+        android:label="fragment_briefing_title"
+        tools:layout="@layout/fragment_briefing_title" />
 </navigation>

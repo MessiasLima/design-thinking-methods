@@ -2,4 +2,5 @@
     <string name="app_name">Design Thinking Methods</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_start_button">go</string>
 </resources>
