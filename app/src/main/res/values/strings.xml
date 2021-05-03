@@ -3,7 +3,15 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
 
+    <!--    General    -->
+    <string name="take_a_look">Conhecer</string>
+
     <!--    Home    -->
     <string name="home_main_button">Let\'s start</string>
     <string name="home_presentation_text">Aqui vamos conhecer alguns métodos de Design Thinking. Dividido em sete passos para facilitar a  leitura e entendimento de cada um dos métodos.</string>
+
+    <!--    Briefing    -->
+    <string name="briefing_first_method">Primeiro Método</string>
+    <string name="briefing_title">Briefing</string>
+
 </resources>

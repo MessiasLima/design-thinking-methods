@@ -8,16 +8,30 @@
     android:padding="@dimen/fragment_padding"
     tools:context=".home.HomeFragment">
 
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/briefing_top_guideline"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/briefing_bottom_guideline"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".8" />
+
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/home_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="64.4dp"
+
         android:text="@string/app_name"
         android:textAppearance="@style/Text.Title"
-        app:layout_constraintBottom_toTopOf="@id/home_logo"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/briefing_top_guideline" />
 
     <androidx.appcompat.widget.AppCompatImageView
         android:id="@+id/home_logo"
@@ -34,10 +48,10 @@
         android:layout_height="wrap_content"
         android:text="@string/home_presentation_text"
         android:textAppearance="@style/Text.Body"
-        app:layout_constraintBottom_toTopOf="@id/home_button"
+        app:layout_constraintBottom_toBottomOf="@id/briefing_bottom_guideline"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/home_logo" />
+        app:layout_constraintTop_toTopOf="@id/briefing_bottom_guideline" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/home_button"

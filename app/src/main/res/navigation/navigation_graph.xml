@@ -22,5 +22,18 @@
         android:id="@+id/briefingTitleFragment"
         android:name="com.messias.designthinkingmethods.briefing.BriefingTitleFragment"
         android:label="fragment_briefing_title"
-        tools:layout="@layout/fragment_briefing_title" />
+        tools:layout="@layout/fragment_briefing_title">
+        <action
+            android:id="@+id/briefing"
+            app:destination="@id/briefingFragment"
+            app:enterAnim="@anim/transition_enter"
+            app:exitAnim="@anim/transition_exit"
+            app:popEnterAnim="@anim/transition_pop_enter"
+            app:popExitAnim="@anim/transition_pop_exit" />
+    </fragment>
+    <fragment
+        android:id="@+id/briefingFragment"
+        android:name="com.messias.designthinkingmethods.briefing.BriefingFragment"
+        android:label="fragment_briefing"
+        tools:layout="@layout/fragment_briefing" />
 </navigation>

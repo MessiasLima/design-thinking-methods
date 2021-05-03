@@ -1,8 +1,8 @@
 package com.messias.designthinkingmethods
 
-abstract class NoToolbarFragment : BaseFragment() {
+abstract class ToolbarFragment : BaseFragment() {
     override fun onResume() {
         super.onResume()
-        getMainActivity()?.hideToolbar()
+        getMainActivity()?.showToolbar()
     }
 }
