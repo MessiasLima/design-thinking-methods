@@ -6,12 +6,12 @@ abstract class NoToolbarFragment : Fragment() {
 
     override fun onResume() {
         super.onResume()
-       getMainActivity()?.supportActionBar?.hide()
+        getMainActivity()?.hideToolbar()
     }
 
     override fun onPause() {
         super.onPause()
-       getMainActivity()?.supportActionBar?.show()
+        getMainActivity()?.showToolbar()
     }
 
     private fun getMainActivity(): MainActivity? {
