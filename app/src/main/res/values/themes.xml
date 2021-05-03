@@ -14,4 +14,31 @@
         <!-- Customize your theme here. -->
         <item name="android:windowLightStatusBar">true</item>
     </style>
+
+    <style name="Text">
+        <item name="android:textStyle">normal</item>
+        <item name="android:lineSpacingExtra">3sp</item>
+    </style>
+
+    <style name="Text.Title" parent="Text">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/sf_compact_text_medium</item>
+    </style>
+
+    <style name="Text.Body" parent="Text">
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">@font/sf_ui_display_regular</item>
+    </style>
+
+    <style name="Text.Button" parent="Text.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:textAppearance">@style/Text.Button</item>
+        <item name="cornerRadius">@dimen/button_corner_radius</item>
+        <item name="android:paddingVertical">10dp</item>
+    </style>
 </resources>

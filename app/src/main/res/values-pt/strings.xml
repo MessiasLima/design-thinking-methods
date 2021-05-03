@@ -1,9 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Design Thinking Methods</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
 
     <!--    Home    -->
-    <string name="home_main_button">Let\'s start</string>
+    <string name="home_main_button">Começar</string>
     <string name="home_presentation_text">Aqui vamos conhecer alguns métodos de Design Thinking. Dividido em sete passos para facilitar a  leitura e entendimento de cada um dos métodos.</string>
 </resources>
