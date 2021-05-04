@@ -14,4 +14,22 @@
     <string name="briefing_first_method">Primeiro Método</string>
     <string name="briefing_title">Briefing</string>
 
+    <!--    Research    -->
+    <string name="research_title">Pesquisa</string>
+
+    <!--    Ideation    -->
+    <string name="ideation_title">Ideação</string>
+
+    <!--    Prototype    -->
+    <string name="protorype_title">Prototipagem</string>
+
+    <!--    Selection of ideas    -->
+    <string name="selection_of_ideas_title">Seleção de ideias</string>
+
+    <!--    Implementation    -->
+    <string name="implementation_title">Implementação</string>
+
+    <!--    Aprendizagem    -->
+    <string name="learning_title">Aprendizagem</string>
+    <string name="menu_back">__</string>
 </resources>

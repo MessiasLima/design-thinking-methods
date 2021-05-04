@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_back"
+        android:title="@string/menu_back" />
+    <item
+        android:id="@+id/menu_briefing"
+        android:title="@string/briefing_title" />
+    <item
+        android:id="@+id/menu_research"
+        android:title="@string/research_title" />
+    <item
+        android:id="@+id/menu_ideation"
+        android:title="@string/ideation_title" />
+    <item
+        android:id="@+id/menu_prototype"
+        android:title="@string/protorype_title" />
+    <item
+        android:id="@+id/menu_selection_of_ideas"
+        android:title="@string/selection_of_ideas_title" />
+    <item
+        android:id="@+id/menu_implementation"
+        android:title="@string/implementation_title" />
+    <item
+        android:id="@+id/menu_learning"
+        android:title="@string/learning_title" />
+</menu>
